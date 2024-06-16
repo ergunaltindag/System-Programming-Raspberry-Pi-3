@@ -46,7 +46,7 @@ cd Client/build
 cmake ..
 make
 
-####### Running the System
+Running the System
 
 Server Side (Raspberry Pi 3)
 On the Raspberry Pi 3, start the server software using the following commands:
@@ -58,7 +58,7 @@ Client Side (PC)
 On the PC, start the client software using the following command:
 ./ClientNode
 
-######## Notes
+Notes
 
 The system will only communicate using the specified ports. Using different ports may prevent the system from working correctly.
 Ensure the IP address of the Raspberry Pi 3 is correctly configured, and the client software can access this IP address.
